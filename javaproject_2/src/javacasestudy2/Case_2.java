@@ -14,7 +14,6 @@ import java.io.InputStreamReader;
 	protected static int i=1;
 
 	public static void main(String[] args) throws IOException  {
-	//int ch;
 	char option;
 	int roomId;
 	for(int i=0;i<25;i++)
