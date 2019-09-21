@@ -79,7 +79,7 @@ m1=br.readLine();
 }
 while(m1.equalsIgnoreCase("y"));
 }
-//else if(m.equalsIgnoreCase("y"))
+
 System.out.println("Thank you for booking your room number is");
 
 
@@ -151,10 +151,9 @@ System.out.println("with laundry service");
 else
 System.out.println("without laundry service");
 
-//System.out.println("Do you want to proceed?(y/n)");
-// String n=br.readLine();
+
 int f=0;
-if(tot>0)// &&(n.equalsIgnoreCase("y")))
+if(tot>0)
 {
 
 for( j=0;j<25;j++)
@@ -164,7 +163,7 @@ if(room[j]==0)
 room[j]=1;
 roomno=j+1;
 f=1;
-//System.out.println(roomno);
+
 break;
 }
 }
